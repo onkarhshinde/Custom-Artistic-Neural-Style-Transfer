@@ -658,9 +658,3 @@ for i in range(num_iter):
                   (improvement, improvement_threshold))
             exit()
 
-"""
-python inetwork_tf.py "C:\\Users\\somsh\\OneDrive\\Pictures\\Album Art\\Ryogi-Shiki-small2.jpg" "C:\\Users\\somsh\\OneDrive\\Pictures\\
-Art\\Blue Butterfly.jpg" "C:\\Users\\somsh\\Desktop\\Neural Art\\Ryogi" --image_size 400 --content_weight 0.025 --style_weight 1.0 --total_variation_weight 8.5E-05 --style_scale 1 --num_iter
- 10 --rescale_image "False" --rescale_method "bicubic" --maintain_aspect_ratio "True" --content_layer "conv5_2" --init_image "content" --pool_type "max" --preserve_color "False" --min_
-improvement 0 --model "vgg16" --content_loss_type 0
-"""
